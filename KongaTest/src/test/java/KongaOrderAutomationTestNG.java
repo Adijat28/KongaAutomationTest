@@ -38,8 +38,8 @@ public class KongaOrderAutomationTestNG {
 
         // Click the "Login / Sign Up" button
         loginLink.click();
-        driver.findElement(By.id("username")).sendKeys("khodijatorire@gmail.com"); // Replace with your email
-        driver.findElement(By.id("password")).sendKeys("oritokeabiks1993"); // Replace with your password
+        driver.findElement(By.id("username")).sendKeys("****"); // Replace with your email
+        driver.findElement(By.id("password")).sendKeys("****"); // Replace with your password
         driver.findElement(By.xpath("//button[contains(text(), 'Login')]")).click();
         //wait.until(ExpectedConditions.urlContains("dashboard"));
         WebElement myAccount = new WebDriverWait(driver, Duration.ofSeconds(10))
